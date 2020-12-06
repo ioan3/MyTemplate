@@ -17,7 +17,7 @@
 }
 
 .navlinkCollapsedtxtSize {
-    font-size: 1.2rem !important;
+    font-size: 2rem !important;
 }
 
 .navlinkCollapsedtxtSize-2 {
@@ -58,6 +58,9 @@
         margin-top: 0 !important;
         display: inline;
     }
+    .navlinkCollapsedtxtSize {
+        font-size: 1.4rem !important;
+    }
     .navlinkCollapsedtxtSize-2 {
         font-size: 1.3rem !important;
     }
@@ -79,6 +82,9 @@
         position: relative !important;
         margin-top: 0 !important;
         display: inline;
+    }
+    .navlinkCollapsedtxtSize {
+        font-size: 1.4rem !important;
     }
     .navlinkCollapsedtxtSize-2 {
         font-size: 1.3rem !important;
