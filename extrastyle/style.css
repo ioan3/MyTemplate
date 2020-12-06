@@ -1,0 +1,5 @@
+.navbrand-hovered:hover {
+    margin-left: 5px !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
