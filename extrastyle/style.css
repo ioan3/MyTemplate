@@ -3,7 +3,16 @@
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
-
+.navbrand-img {
+    max-width: 130px !important;
+}
+.navbrand-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px !important;
+    position: absolute !important;
+    margin-top: 40px !important;
+    display: none;
+}
 /* NAVBAR */
 @media (min-width: 768px) {
     .navbrand-img {
