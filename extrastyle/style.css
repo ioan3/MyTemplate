@@ -55,7 +55,7 @@
         display: inline;
     }
     .navlinkCollapsed {
-        font-size: 1rem !important;
+        font-size: 1.3rem !important;
     }
     .borderLeft {
         border-left: 1px solid gray;
@@ -77,7 +77,7 @@
         display: inline;
     }
     .navlinkCollapsed {
-        font-size: 1rem !important;
+        font-size: 1.3rem !important;
     }
     .borderLeft {
         border-left: 1px solid gray;
@@ -105,4 +105,7 @@
 
 .border-darklight {
     border-color: #bcbcbc !important;
+}
+.bpgNino {
+    font-family: 'BPG Nino Mtavruli';
 }
