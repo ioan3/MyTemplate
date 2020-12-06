@@ -4,28 +4,11 @@
     transition: 0.3s;
 }
 
-/* NAVBAR IMAGE */
+/* NAVBAR */
 @media (min-width: 768px) {
     .navbrand-img {
         max-width: 130px !important;
     }
-}
-
-@media (min-width: 992px) {
-    .navbrand-img {
-        max-width: 40px !important;
-    }
-}
-
-@media (min-width: 1200px) {
-    .navbrand-img {
-        max-width: 40px !important;
-    }
-}
-/* NAVBAR IMAGE */
-
-/* NAVBAR TEXT */
-@media (min-width: 768px) {
     .navbrand-text {
         font-family: 'Courier New', Courier, monospace;
         font-size: 100px !important;
@@ -36,6 +19,9 @@
 }
 
 @media (min-width: 992px) {
+    .navbrand-img {
+        max-width: 40px !important;
+    }
     .navbrand-text {
         font-family: 'Courier New', Courier, monospace;
         font-size: 45px !important;
@@ -46,6 +32,9 @@
 }
 
 @media (min-width: 1200px) {
+    .navbrand-img {
+        max-width: 40px !important;
+    }
     .navbrand-text {
         font-family: 'Courier New', Courier, monospace;
         font-size: 45px !important;
@@ -54,7 +43,7 @@
         display: inline;
     }
 }
-/* NAVBAR TEXT */
+/* NAVBAR */
 
 .bg-darklight {
     background-color: #dedede;
