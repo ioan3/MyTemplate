@@ -57,7 +57,7 @@
 
 @media (min-width: 992px) {
     .navbrand-img {
-        max-width: 40px !important;
+        max-width: 45px !important;
     }
     .navbrand-text {
         font-family: 'Courier New', Courier, monospace;
@@ -85,7 +85,7 @@
 
 @media (min-width: 1200px) {
     .navbrand-img {
-        max-width: 40px !important;
+        max-width: 45px !important;
     }
     .navbrand-text {
         font-family: 'Courier New', Courier, monospace;
