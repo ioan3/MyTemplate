@@ -5,8 +5,6 @@
 }
 
 /* NAVBAR IMAGE */
-
-
 @media (min-width: 768px) {
     .navbrand-img {
         max-width: 130px !important;
@@ -24,19 +22,16 @@
         max-width: 40px !important;
     }
 }
-
 /* NAVBAR IMAGE */
 
 /* NAVBAR TEXT */
-
-
 @media (min-width: 768px) {
     .navbrand-text {
         font-family: 'Courier New', Courier, monospace;
         font-size: 100px !important;
         position: absolute !important;
         margin-top: 40px !important;
-        display: inline;
+        display: none;
     }
 }
 
@@ -59,9 +54,12 @@
         display: inline;
     }
 }
-
 /* NAVBAR TEXT */
 
 .bg-darklight {
     background-color: #dedede;
+    right: 5%;
+}
+.nav-toggler-lg {
+    font-size: 4.25rem !important;
 }
