@@ -17,7 +17,7 @@
       max-width: 40px !important;
     }
     .text-visible {
-        visibility: visible !important;
+        visibility: hidden !important;
     }
   }
   
