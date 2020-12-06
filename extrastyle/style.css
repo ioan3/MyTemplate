@@ -16,7 +16,11 @@
     transition: 0.3s;
 }
 
-.navlinkCollapsed {
+.navlinkCollapsedtxtSize {
+    font-size: 1.2rem !important;
+}
+
+.navlinkCollapsedtxtSize-2 {
     font-size: 2rem !important;
 }
 
@@ -54,7 +58,7 @@
         margin-top: 0 !important;
         display: inline;
     }
-    .navlinkCollapsed {
+    .navlinkCollapsedtxtSize-2 {
         font-size: 1.3rem !important;
     }
     .borderLeft {
@@ -76,7 +80,7 @@
         margin-top: 0 !important;
         display: inline;
     }
-    .navlinkCollapsed {
+    .navlinkCollapsedtxtSize-2 {
         font-size: 1.3rem !important;
     }
     .borderLeft {
@@ -106,9 +110,14 @@
 .border-darklight {
     border-color: #bcbcbc !important;
 }
+
 .bpgNino {
     font-family: 'BPG Nino Mtavruli';
 }
+
 .navbar-boxshadow {
     box-shadow: 0 1px 5px 0px #454545;
+}
+.dropdown-item:active {
+    background-color:  #bcbcbc;
 }
