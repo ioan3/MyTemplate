@@ -66,6 +66,10 @@
     width: 280px !important;
 }
 
+.thumbImage {
+    width: 100% !important;
+}
+
 .navbarTFsize {
     font-size: 25px;
 }
