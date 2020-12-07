@@ -74,6 +74,10 @@
     font-size: 25px;
 }
 
+.registrationMain {
+    display: none;
+}
+
 /* RESPONSIVE */
 
 @media (min-width: 768px) {
@@ -127,6 +131,10 @@
     .navbarTFsize {
         font-size: 14px;
     }
+    .registrationMain {
+        display: inline;
+    }
+    
 }
 
 @media (min-width: 1200px) {
@@ -160,6 +168,9 @@
     }
     .navbarTFsize {
         font-size: 14px;
+    }
+    .registrationMain {
+        display: inline;
     }
 }
 
