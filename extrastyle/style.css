@@ -66,6 +66,10 @@
     width: 280px !important;
 }
 
+.navbarTFsize {
+    font-size: 25px;
+}
+
 /* RESPONSIVE */
 
 @media (min-width: 768px) {
@@ -116,6 +120,9 @@
     .postImage {
         width: 220px !important;
     }
+    .navbarTFsize {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -146,6 +153,9 @@
     }
     .topBooksLeft {
         display: inline;
+    }
+    .navbarTFsize {
+        font-size: 14px;
     }
 }
 
