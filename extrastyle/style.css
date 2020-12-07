@@ -51,7 +51,11 @@
     background-size: auto auto;
 }
 
-/* NAVBAR */
+.topBooksLeft {
+    display: none;
+}
+
+/* RESPONSIVE */
 
 @media (min-width: 768px) {
     .navbrand-img {
@@ -95,6 +99,10 @@
     .navlink-sign {
         background-size: auto 40%;
     }
+    .topBooksLeft {
+        display: inline;
+    }
+    
 }
 
 @media (min-width: 1200px) {
@@ -123,9 +131,12 @@
     .navlink-sign {
         background-size: auto 40%;
     }
+    .topBooksLeft {
+        display: inline;
+    }
 }
 
-/* NAVBAR */
+/* RESPONSIVE */
 
 .bg-darklight {
     background-color: #dedede;
@@ -155,4 +166,12 @@
 
 .dropdown-item:active {
     background-color: #bcbcbc;
+}
+
+.lgi-px {
+    padding: 0.4rem 0.6rem 0.4rem 0.6rem !important;
+}
+
+.cursorPointer {
+    cursor: pointer !important;
 }
