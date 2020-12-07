@@ -41,6 +41,16 @@
     width: auto;
 }
 
+.navlink-sign:hover {
+    background-image: url("../images/sign.png");
+    background-repeat: no-repeat;
+    background-position: 95% top;
+}
+
+.navlink-sign {
+    background-size: auto auto;
+}
+
 /* NAVBAR */
 
 @media (min-width: 768px) {
@@ -82,6 +92,9 @@
     .navbarWidth {
         width: 14em;
     }
+    .navlink-sign {
+        background-size: auto 50%;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -107,6 +120,9 @@
     .borderRight {
         border-right: 1px solid gray;
     }
+    .navlink-sign {
+        background-size: auto 50%;
+    }
 }
 
 /* NAVBAR */
@@ -123,13 +139,6 @@
 .nav-item-hovered:hover {
     background-color: #cdcdcd;
     transition: 0.0s;
-}
-
-.navlink-sign:hover {
-    background-image: url("../images/sign.png");
-    background-repeat: no-repeat;
-    background-position: 95% top;
-    background-size: auto 45%;
 }
 
 .border-darklight {
