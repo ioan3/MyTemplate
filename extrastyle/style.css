@@ -74,8 +74,20 @@
     font-size: 25px;
 }
 
+.navTextHidden1 {
+    display: inline;
+}
+
+.navTextHidden2 {
+    display: none;
+}
+
 .registrationMain {
     display: none;
+}
+
+.offset-fromRight {
+    margin-right: 135px;
 }
 
 /* RESPONSIVE */
@@ -131,10 +143,15 @@
     .navbarTFsize {
         font-size: 14px;
     }
+    .navTextHidden1 {
+        display: none;
+    }
+    .navTextHidden2 {
+        display: inline;
+    }
     .registrationMain {
         display: inline;
     }
-    
 }
 
 @media (min-width: 1200px) {
@@ -168,6 +185,12 @@
     }
     .navbarTFsize {
         font-size: 14px;
+    }
+    .navTextHidden1 {
+        display: none;
+    }
+    .navTextHidden2 {
+        display: inline;
     }
     .registrationMain {
         display: inline;
