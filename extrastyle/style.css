@@ -41,16 +41,20 @@
     width: auto;
 }
 
-img .navlink-sign {
+.navlink-sign {
     background-size: auto auto;
-    background-image: url("../images/sign.png");
     background-repeat: no-repeat;
     background-position: 95% top;
-   display: none;
 }
 
 .navlink-sign:hover {
-    display: inline;
+    background-image: url("../images/sign.png");
+}
+.fixedSign {
+    background-size: auto 40%;
+    background-repeat: no-repeat;
+    background-position: 95% top;
+    background-image: url("../images/sign.png");
 }
 
 .topBooksLeft {
