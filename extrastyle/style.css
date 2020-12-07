@@ -50,6 +50,7 @@
 .navlink-sign:hover {
     background-image: url("../images/sign.png");
 }
+
 .fixedSign {
     background-size: auto 40%;
     background-repeat: no-repeat;
@@ -59,6 +60,10 @@
 
 .topBooksLeft {
     display: none;
+}
+
+.postImage {
+    width: 280px !important;
 }
 
 /* RESPONSIVE */
@@ -107,6 +112,9 @@
     }
     .topBooksLeft {
         display: inline;
+    }
+    .postImage {
+        width: 220px !important;
     }
 }
 
