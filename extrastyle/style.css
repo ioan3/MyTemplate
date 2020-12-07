@@ -122,7 +122,14 @@
 
 .nav-item-hovered:hover {
     background-color: #cdcdcd;
-    transition: 0.3s;
+    transition: 0.0s;
+}
+
+.navlink-sign:hover {
+    background-image: url("../images/sign.png");
+    background-repeat: no-repeat;
+    background-position: 95% top;
+    background-size: auto 45%;
 }
 
 .border-darklight {
