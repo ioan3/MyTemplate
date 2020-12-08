@@ -42,7 +42,8 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto bpgNino">
 
-                    <p class="lead bpgNino mt-4 offset-fromRight navbarTFsize navTextHidden2">უფასო ელ-წიგნების ბიბლიოთეკა</p>
+                    <p class="lead bpgNino mt-4 offset-fromRight navbarTFsize navTextHidden2">უფასო ელ-წიგნების
+                        ბიბლიოთეკა</p>
 
                     <li
                         class="nav-item nav-item-hovered py-2 px-lg-4 borderLeft border-darklight navlinkCollapsedtxtSize-2 navlink-sign -lg">
@@ -97,11 +98,13 @@
                 <div class="col-2 topBooksLeft bpgNino">
 
                     <div class="list-group rounded-0 rounded-top text-center border-0 cursorPointer">
-                        <li class="list-group-item fixedSign bg-light" style="border-radius: 5px 5px 0 0;"><strong>ტოპ წიგნები</strong></li>
+                        <li class="list-group-item fixedSign bg-light" style="border-radius: 5px 5px 0 0;"><strong>ტოპ
+                                წიგნები</strong></li>
                     </div>
 
-                    <div class="list-group" >
-                        <a class="list-group-item list-group-item-action lgi-px border-top-0" style="border-radius: 0 0 ;" href="#">
+                    <div class="list-group">
+                        <a class="list-group-item list-group-item-action lgi-px border-top-0"
+                            style="border-radius: 0 0 ;" href="#">
                             <img class="img-thumbnail thumbImage" src="images/Articles/Hobbit1.jpg" alt="">
                             ჰობიტი: მოულოდნელი მოგზაურობა
                         </a>
@@ -203,25 +206,61 @@
 
                 </div>
 
-                <div class="col rounded ml-3 registrationMain">
-                    <div class="bg-light rounded-0 px-2 py-2 bpgNino">
+                <div class="col rounded ml-3 loginMain">
+                    <div class="bg-light rounded-0 px-2 py-2 bpgNino mb-3" id="displayLogin">
                         <form>
                             <h5><strong>ავტორიზაცია</strong></h5>
                             <hr style="margin-top: 0rem;">
                             <div class="form-group">
-                                <label for="exampleInputEmail1">მეილი</label>
-                                <input type="email" class="form-control" style="max-width: 300px;"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="email" class="form-control rounded-sm" placeholder="მეილი" style="max-width: 300px;"
+                                    aria-describedby="emailHelp">
                             </div>
 
                             <div class="form-group">
-                                <label for="exampleInputPassword1">პაროლი</label>
-                                <input type="password" class="form-control" style="max-width: 300px;"
-                                    id="exampleInputPassword1" aria-describedby="emailHelp">
+                                <input type="password" class="form-control rounded-sm" placeholder="პაროლი" style="max-width: 300px;">
                             </div>
 
-                            <button type="submit" class="btn btn-dark">შესვლა</button>
-                            <a class="navbar-brand navbarTFsize ml-5" href="#">რეგისტრაცია</a>
+                            <button type="submit" class="btn btn-dark rounded-0">შესვლა</button>
+                            <a class="navbar-brand navbarTFsize ml-5 " onclick="showReg()" href="#">რეგისტრაცია</a>
+                        </form>
+                    </div>
+
+                    <div class="bg-light rounded-0 px-2 py-2 bpgNino mb-3" id="displayRegistration">
+                        <form>
+                            <h5><strong>რეგისტრაცია</strong></h5>
+                            <hr style="margin-top: 0rem;">
+                            <div class="form-group">
+                                <input type="text" class="form-control form-control-sm rounded-sm" placeholder="სახელი"
+                                    style="max-width: 300px;">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control form-control-sm rounded-sm" placeholder="გვარი"
+                                    style="max-width: 300px;">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" class="form-control form-control-sm rounded-sm" placeholder="მეილი"
+                                    style="max-width: 300px;" aria-describedby="emailHelp">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="date" class="form-control form-control-sm rounded-sm" placeholder="გვარი"
+                                    style="max-width: 300px;">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="password" class="form-control form-control-sm rounded-sm" placeholder="პაროლი"
+                                    style="max-width: 300px;">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="password" class="form-control form-control-sm rounded-sm"
+                                    placeholder="გაიმეორეთ პაროლი" style="max-width: 300px;">
+                            </div>
+
+                            <button type="submit" class="btn btn-dark rounded-0">რეგისტრაცია</button>
+                            <a class="navbar-brand navbarTFsize ml-4" onclick="showLogin()" href="#">ლოგინი</a>
                         </form>
                     </div>
 
@@ -230,6 +269,17 @@
             </div>
         </div>
     </div>
+    <script>
+        function showReg() {
+            document.getElementById("displayRegistration").style.display = "block";
+            document.getElementById("displayLogin").style.display = "none";
+        }
+
+        function showLogin() {
+            document.getElementById("displayRegistration").style.display = "none";
+            document.getElementById("displayLogin").style.display = "block";
+        }
+    </script>
 </body>
 
 </html>

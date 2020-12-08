@@ -82,13 +82,22 @@
     display: none;
 }
 
-.registrationMain {
+.loginMain {
     display: none;
 }
 
 .offset-fromRight {
     margin-right: 135px;
 }
+
+#displayLogin {
+    display: block;
+}
+
+#displayRegistration {
+    display: none;
+}
+
 
 /* RESPONSIVE */
 
@@ -149,7 +158,7 @@
     .navTextHidden2 {
         display: inline;
     }
-    .registrationMain {
+    .loginMain {
         display: inline;
     }
 }
@@ -192,7 +201,7 @@
     .navTextHidden2 {
         display: inline;
     }
-    .registrationMain {
+    .loginMain {
         display: inline;
     }
 }
